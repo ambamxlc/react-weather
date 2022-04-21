@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ambamxlc/react-weather.git/static/css/main.cdcf7e8a.css",
-    "main.js": "/ambamxlc/react-weather.git/static/js/main.6fc47549.js",
-    "index.html": "/ambamxlc/react-weather.git/index.html",
-    "main.cdcf7e8a.css.map": "/ambamxlc/react-weather.git/static/css/main.cdcf7e8a.css.map",
-    "main.6fc47549.js.map": "/ambamxlc/react-weather.git/static/js/main.6fc47549.js.map"
+    "main.css": "/react-weather/static/css/main.cdcf7e8a.css",
+    "main.js": "/react-weather/static/js/main.6fc47549.js",
+    "index.html": "/react-weather/index.html",
+    "main.cdcf7e8a.css.map": "/react-weather/static/css/main.cdcf7e8a.css.map",
+    "main.6fc47549.js.map": "/react-weather/static/js/main.6fc47549.js.map"
   },
   "entrypoints": [
     "static/css/main.cdcf7e8a.css",
