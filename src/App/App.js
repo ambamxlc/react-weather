@@ -1,4 +1,4 @@
-// export default App;
+// export default App;hi
 import { useState } from "react";
 import { WeatherDay } from "../WeatherDay/WeatherDay";
 // import styles from "./styles.modules.css";
@@ -11,12 +11,12 @@ export const App = () => {
 
   function handleSubmit(event) {
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?zip=${zipCode},us&appid=${apiKey}&units=imperial`
+      `https://api.openweathermap.org/data/2.5/weather?zip=${zipCode},us&appid=${apiKey}&units=imperial`
     )
       .then((res) => res.json())
       .then((res) => {
         console.log(res);
-        setWeatherInfo({
+        -setWeatherInfo({
           min: res.main.temp_min,
           max: res.main.temp_max,
           weatherType: res.weather[0].description,
